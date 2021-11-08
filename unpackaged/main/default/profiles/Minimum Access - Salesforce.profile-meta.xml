@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>true</default>
@@ -997,6 +996,9 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BusinessBrand-Business Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CaseMilestone-Case Milestone Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1007,6 +1009,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DataUseLegalBasis-Data Use Legal Basis Layout</layout>
@@ -1058,6 +1063,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Seller-Seller Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ServiceContract-Service Contract Layout</layout>

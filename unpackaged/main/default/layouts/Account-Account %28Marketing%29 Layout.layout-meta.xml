@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
@@ -7,6 +7,10 @@
         <editHeading>true</editHeading>
         <label>Account Information</label>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>External_ID__c</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
@@ -196,6 +200,9 @@
         <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>External_ID__c</fields>
+    </miniLayout>
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>

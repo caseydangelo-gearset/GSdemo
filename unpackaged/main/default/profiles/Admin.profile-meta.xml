@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>AccountOperations</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountOperationsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
         <enabled>true</enabled>
@@ -18,6 +25,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CustomSiteRegisterController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PassingTests</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TemperatureConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TemperatureConverterTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <applicationVisibilities>
@@ -2831,6 +2850,9 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BusinessBrand-Business Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2889,6 +2911,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DandBCompany-D%26B Company Layout</layout>
@@ -3042,6 +3067,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Seller-Seller Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ServiceAppointment-Service Appointment Layout</layout>
@@ -4036,6 +4064,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>OmnichannelInventorySync</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>Packaging2</name>
     </userPermissions>
     <userPermissions>
@@ -4140,6 +4172,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UseOmnichannelInventoryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>UseReturnOrder</name>
     </userPermissions>
     <userPermissions>
@@ -4177,6 +4213,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewDataLeakageEvents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDeveloperName</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

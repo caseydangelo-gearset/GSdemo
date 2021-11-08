@@ -2,6 +2,16 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
+        <fullName>Technology</fullName>
+        <default>false</default>
+        <label>Technology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Banking</fullName>
+        <default>false</default>
+        <label>Banking</label>
+    </standardValue>
+    <standardValue>
         <fullName>Agriculture</fullName>
         <default>false</default>
         <label>Agriculture</label>
@@ -10,11 +20,6 @@
         <fullName>Apparel</fullName>
         <default>false</default>
         <label>Apparel</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Banking</fullName>
-        <default>false</default>
-        <label>Banking</label>
     </standardValue>
     <standardValue>
         <fullName>Biotechnology</fullName>
@@ -135,16 +140,6 @@
         <fullName>Shipping</fullName>
         <default>false</default>
         <label>Shipping</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Technology</fullName>
-        <default>false</default>
-        <label>Technology</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Telecommunications</fullName>
-        <default>false</default>
-        <label>Telecommunications</label>
     </standardValue>
     <standardValue>
         <fullName>Transportation</fullName>

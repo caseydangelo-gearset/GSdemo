@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SLA__c</fullName>
     <externalId>false</externalId>
@@ -18,11 +18,6 @@
                 <fullName>Silver</fullName>
                 <default>false</default>
                 <label>Silver</label>
-            </value>
-            <value>
-                <fullName>Platinum</fullName>
-                <default>false</default>
-                <label>Platinum</label>
             </value>
             <value>
                 <fullName>Bronze</fullName>
